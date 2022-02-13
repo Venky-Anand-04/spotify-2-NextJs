@@ -32,7 +32,6 @@ function Center() {
       setPlaylist(data.body)
     })
   }, [spotifyApi, playlistId])
-  console.log(playlist)
 
   return (
     <div className="h-screen flex-grow overflow-y-scroll scrollbar-hide">
